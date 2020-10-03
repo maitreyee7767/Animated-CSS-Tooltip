@@ -3,7 +3,14 @@ body {
   background: #212121;
   font-family: 'Source Sans Pro', sans-serif;
 }
-
+h2{
+  font-size: 48px;
+  color: #a217ff;
+  border-color: #FFF;
+  border-spacing: 2px;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+}
 form {
   display: flex;
   justify-content: center;
@@ -14,6 +21,7 @@ form {
 }
 
 input {
+  padding: 2px;
   border: none;
   width: 170px;
   height: 25px;
@@ -21,7 +29,7 @@ input {
 
 .tooltip {
   position: relative;
-  background: #ff1744;
+  background: #a217ff;
   padding: 5px 12px;
   margin: 5px;
   font-size: 15px;
@@ -40,14 +48,14 @@ input {
 .tooltip:before {
   border-width: 10px 8px 0 8px;
   border-style: solid;
-  border-color: #ff1744 transparent transparent transparent;
+  border-color: #a217ff transparent transparent transparent;
   top: -15px;
   transform: translateY(20px);
 }
 
 .tooltip:after {
   content: attr(data-tooltip);
-  background: #ff1744;
+  background: #a217ff;
   width: 160px;
   height: 40px;
   font-size: 13px;
